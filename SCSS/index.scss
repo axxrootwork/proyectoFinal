@@ -1,0 +1,178 @@
+//Variables
+$color-primario: #0088cc;
+$color-secundario: #dd4b39;
+
+@mixin hov{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+//Estilos globales
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: $color-primario;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+
+    h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    a{
+        img{
+            width: 50px;
+            height: 50px;
+            display: flex;
+        }
+        img:hover{
+            @include hov();
+        }
+        img:active{
+            background-color: #dd4b39;
+            border-radius: 15px;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem;
+            display: flex;
+            width: 100px;
+            height: 100px;
+
+            &:hover {
+                background-color: #fff;
+                color: #000000;
+            }
+            &:active {
+                background-color: $color-secundario;
+                color: #fff;
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem;
+
+    section#juegos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        justify-items: center;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        div {
+            margin-bottom: 1rem;
+
+            img {
+                max-width: 100%;
+            }
+
+            h3 {
+                margin-bottom: 0.5rem;
+            }
+
+            p {
+                margin-bottom: 0.5rem;
+            }
+
+            button {
+                background-color: $color-secundario;
+                color: #fff;
+                border: none;
+                padding: 0.5rem 1rem;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                    background-color: lighten($color-secundario, 20%);
+                }
+            }
+        }
+    }
+
+    section#carrito {
+        width: 300px;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        ul#lista-carrito {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        p#total-carrito {
+            text-align: right;
+            margin-top: 1rem;
+        }
+
+        button {
+            background-color: $color-secundario;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            margin-bottom: 0.5rem;
+
+            &:hover {
+                background-color: lighten($color-secundario, 20%);
+            }
+        }
+
+        #borrar-carrito {
+            background-color: #999;
+        }
+    }
+}
+
+footer {
+    background-color: $color-primario;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    p{
+        color: #fff;
+    }
+}

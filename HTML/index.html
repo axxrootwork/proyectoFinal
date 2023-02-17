@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tienda de videojuegos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/SCSS/index.css">
+	<link rel="stylesheet" href="/SCSS/mediaCelular.css">
+</head>
+<body>
+	<header>
+		<h1>Tienda de videojuegos</h1>
+        <a href="/HTML/index.html"><img src="/IMG/Logo.png" alt="Logo"></a>
+        <nav>
+            <a href="/HTML/index.html">Inicio</a>
+            <a href="/HTML/contacto.html">Contacto</a>
+            <a href="/HTML/acerca.html">Acerca</a>
+        </nav>
+	</header>
+
+	<main>
+		<section id="juegos">
+			<!-- Aquí se añadirán los juegos dinámicamente -->
+		</section>
+
+		<section id="carrito">
+			<h2>Carrito</h2>
+			<ul id="lista-carrito">
+				<!-- Aquí se añadirán los productos del carrito dinámicamente -->
+			</ul>
+			<p id="total-carrito">Total: $0</p>
+			<button id="comprar-todo">Comprar todo</button>
+			<button id="borrar-carrito">Borrar carrito</button>
+		</section>
+	</main>
+
+    <footer>
+        <p>Tienda de video juegos &copy; 2023. Todos los derechos reservados.</p>
+    </footer>
+
+	<script src="/JS/vid.js"></script>
+	<script src="/JSON/data.json"></script>
+</body>
+</html>

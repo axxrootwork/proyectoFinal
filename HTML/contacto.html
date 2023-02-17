@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tienda de videojuegos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/SCSS/index.css">
+	<link rel="stylesheet" href="/SCSS/mediaCelular.css">
+    <link rel="stylesheet" href="/SCSS/contacto.css">
+</head>
+<body>
+	<header>
+		<h1>Tienda de videojuegos</h1>
+        <a href="/HTML/index.html"><img src="/IMG/Logo.png" alt="Logo"></a>
+        <nav>
+            <a href="/HTML/index.html">Inicio</a>
+            <a href="/HTML/contacto.html">Contacto</a>
+            <a href="/HTML/acerca.html">Acerca</a>
+        </nav>
+	</header>
+
+    <form action="" method="POST">
+        <h2>Contacto</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Asunto:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+
+    <footer>
+        <p>Tienda de video juegos &copy; 2023. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        const form = document.querySelector('form');
+    
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+    
+            const name = document.querySelector('#name').value;
+            const email = document.querySelector('#email').value;
+            const subject = document.querySelector('#subject').value;
+            const message = document.querySelector('#message').value;
+    
+            const transporter = nodemailer.createTransport({
+                host: 'smtp.gmail.com',
+                port: 465,
+                secure: true,
+                auth: {
+                    user: 'tucorreo@gmail.com',
+                    pass: 'tucontraseña'
+                }
+            });
+    
+            const mailOptions = {
+                from: email,
+                to: 'destinatario@gmail.com',
+                subject: subject,
+                text: message
+            };
+    
+            transporter.sendMail(mailOptions, (error, info) => {
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log('Email enviado: ' + info.response);
+                }
+            });
+        });
+    </script>
+    
+
+    <script src="https://unpkg.com/nodemailer@6.6.0/dist/nodemailer.min.js"></script>
+	<script src="/JS/vid.js"></script>
+	<script src="/JSON/data.json"></script>
+</body>
+</html>

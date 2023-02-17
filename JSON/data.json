@@ -1,0 +1,92 @@
+[  
+    {    
+    "id": 1,    
+    "nombre": "Super Mario Bros",    
+    "precio": 50,    
+    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    },  
+    {    
+        "id": 2,    
+        "nombre": "The Legend of Zelda",    
+        "precio": 60,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },  
+    {    
+        "id": 3,    
+        "nombre": "Pokemon Red",    
+        "precio": 40,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },
+    {    
+    "id": 1,    
+    "nombre": "Super Mario Bros",    
+    "precio": 50,    
+    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    },  
+    {    
+        "id": 2,    
+        "nombre": "The Legend of Zelda",    
+        "precio": 60,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },  
+    {    
+        "id": 3,    
+        "nombre": "Pokemon Red",    
+        "precio": 40,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },
+    {    
+    "id": 1,    
+    "nombre": "Super Mario Bros",    
+    "precio": 50,    
+    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    },  
+    {    
+        "id": 2,    
+        "nombre": "The Legend of Zelda",    
+        "precio": 60,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },  
+    {    
+        "id": 3,    
+        "nombre": "Pokemon Red",    
+        "precio": 40,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },
+    {    
+    "id": 1,    
+    "nombre": "Super Mario Bros",    
+    "precio": 50,    
+    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    },  
+    {    
+        "id": 2,    
+        "nombre": "The Legend of Zelda",    
+        "precio": 60,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },  
+    {    
+        "id": 3,    
+        "nombre": "Pokemon Red",    
+        "precio": 40,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },
+    {    
+    "id": 1,    
+    "nombre": "Super Mario Bros",    
+    "precio": 50,    
+    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    },  
+    {    
+        "id": 2,    
+        "nombre": "The Legend of Zelda",    
+        "precio": 60,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    },  
+    {    
+        "id": 3,    
+        "nombre": "Pokemon Red",    
+        "precio": 40,    
+        "imagen": "/IMG/Caratulas/caratula.jpg"    
+    }
+]
