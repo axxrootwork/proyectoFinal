@@ -1,92 +1,92 @@
 [  
     {    
     "id": 1,    
-    "nombre": "Super Mario Bros",    
+    "nombre": "Juego #1",    
     "precio": 50,    
-    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    "imagen": "/IMG/Caratulas/1.jpg" 
     },  
     {    
         "id": 2,    
-        "nombre": "The Legend of Zelda",    
+        "nombre": "Juego #2",    
         "precio": 60,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/2.jpg"    
     },  
     {    
         "id": 3,    
-        "nombre": "Pokemon Red",    
+        "nombre": "Juego #3",    
         "precio": 40,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/3.jpg"    
     },
     {    
     "id": 1,    
-    "nombre": "Super Mario Bros",    
+    "nombre": "Juego #4",    
     "precio": 50,    
-    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    "imagen": "/IMG/Caratulas/4.jpg" 
     },  
     {    
         "id": 2,    
-        "nombre": "The Legend of Zelda",    
+        "nombre": "Juego #5",   
         "precio": 60,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/5.jpg"    
     },  
     {    
         "id": 3,    
-        "nombre": "Pokemon Red",    
+        "nombre": "Juego #6",    
         "precio": 40,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/6.jpg"    
     },
     {    
     "id": 1,    
-    "nombre": "Super Mario Bros",    
+    "nombre": "Juego #7",    
     "precio": 50,    
-    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    "imagen": "/IMG/Caratulas/7.jpg"   
     },  
     {    
         "id": 2,    
-        "nombre": "The Legend of Zelda",    
+        "nombre": "Juego #8",    
         "precio": 60,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/8.jpg"     
     },  
     {    
         "id": 3,    
-        "nombre": "Pokemon Red",    
+        "nombre": "Juego #9",    
         "precio": 40,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/9.jpg"     
     },
     {    
     "id": 1,    
-    "nombre": "Super Mario Bros",    
+    "nombre": "Juego #10",   
     "precio": 50,    
-    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    "imagen": "/IMG/Caratulas/10.jpg" 
     },  
     {    
         "id": 2,    
-        "nombre": "The Legend of Zelda",    
+        "nombre": "Juego #11",    
         "precio": 60,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/11.jpg"     
     },  
     {    
         "id": 3,    
-        "nombre": "Pokemon Red",    
+        "nombre": "Juego #12",    
         "precio": 40,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/12.jpg"    
     },
     {    
     "id": 1,    
-    "nombre": "Super Mario Bros",    
+    "nombre": "Juego #13",    
     "precio": 50,    
-    "imagen": "/IMG/Caratulas/caratula.jpg"  
+    "imagen": "/IMG/Caratulas/13.jpg"  
     },  
     {    
         "id": 2,    
-        "nombre": "The Legend of Zelda",    
+        "nombre": "Juego #14",    
         "precio": 60,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/14.jpg"  
     },  
     {    
         "id": 3,    
-        "nombre": "Pokemon Red",    
+        "nombre": "Juego #15",    
         "precio": 40,    
-        "imagen": "/IMG/Caratulas/caratula.jpg"    
+        "imagen": "/IMG/Caratulas/15.jpg"   
     }
 ]
